@@ -1,5 +1,3 @@
-# IDontTrustYou
-
 # Zero Trust Architecture (ZTA) Implementation 🚀
 
 Welcome! This project showcases how to build a **Zero Trust Architecture (ZTA)**—a modern approach to securing sensitive systems. Whether you're new to cybersecurity or an experienced professional, you'll find practical insights here.
