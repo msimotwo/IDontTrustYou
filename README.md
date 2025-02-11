@@ -20,12 +20,19 @@ Here’s a step-by-step breakdown of how I applied ZTA principles:
    - Goal: Verify every user’s identity before granting access.
 
 2. **🔒 Network Micro-Segmentation**  
-   - Deployed **VMware NSX** to divide the network into secure segments.  
+   - Deployed **VMware NSX** to divide the network into secure segments.
+   - **VMware NSX** is a network virtualization and security platform that enables micro-segmentation, automated networking, and zero-trust security within cloud and on-prem environments. It’s important because it isolates workloads, controls east-west traffic, and prevents lateral movement, reducing the attack surface and enhancing overall security.
    - Why? To isolate critical assets and prevent attackers from moving laterally.
 
 3. **📜 Access Controls**  
    - Implemented **Role-Based Access Control (RBAC)** and **Policy-Based Access Control (PBAC)**.  
    - Purpose: Ensure users only access what they need—nothing more.
+   - 📜 Access Controls (What is RBAC/PBAC?)  
+   - **RBAC (Role-Based Access Control)** → Grants access based on job roles (e.g., HR can access HR files, IT Admins can manage all systems).  
+   - **PBAC (Policy-Based Access Control)** → Uses conditions like **location, device, or time** (e.g., files are only accessible from corporate devices or during work hours).  
+   - **Why?** Ensures **least privilege access** and strengthens Zero Trust security.
+  
+ 
 
 4. **📈 Continuous Monitoring**  
    - Integrated **Splunk** and **Microsoft Sentinel** for real-time activity monitoring.  
@@ -65,4 +72,4 @@ I plan to:
 ---
 
 💡 **Want to Learn More?**  
-Feel free to connect with me or ask questions! I’d love to share insights and help you start your Zero Trust journey.  
+Feel free to connect with me or ask questions! I’d love to share insights!
